@@ -2,9 +2,7 @@
 
 ## Introduction
 AudioMix is a music player made using the JUCE framework.  
-This music player allows loading and playing of tracks, with functionalities such as speed, volume and position adjustment of the loaded track.  
-Several tracks can also be loaded into the playlist component, which will be saved upon exiting the application.  
-Other functionalities include crossfading two tracks, adding tracks to queue, and wavefrom display.  
+This music player allows loading and playing of tracks, with functionalities such as speed, volume and position adjustment of the loaded track. Several tracks can be loaded into the playlist component, which will be saved upon exiting the application. Other functionalities include crossfading of two tracks, ability to add tracks to queue, and wavefrom display.  
 <br />
 
 ## Usage
