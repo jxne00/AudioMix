@@ -1,7 +1,7 @@
 # AudioMix
 
 ## Usage
-> Download Projuicer and run the .juicer file  
+> Download Projuicer and run the .juicer file inside musicMix folder
 
 [Demo Video](https://youtu.be/sc-KKXfUTHE)  
 
