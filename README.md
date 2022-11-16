@@ -1,11 +1,14 @@
 # AudioMix
 
 ## Introduction
-AudioMix is a music player made using the JUCE framework.
+AudioMix is a music player made using the JUCE framework.  
+This music player allows loading and playing of tracks, with functionalities such as speed, volume and position adjustment of the loaded track.  
+Several tracks can also be loaded into the playlist component, which will be saved upon exiting the application.  
+Other functionalities include crossfading two tracks, adding tracks to queue, and wavefrom display.  
 <br />
 
 ## Usage
-> Download Projuicer and open the .juicer file found inside audioMix folder  
+> Download Projuicer and open the .jucer file found inside audioMix folder  
 <br />
 
 ___
