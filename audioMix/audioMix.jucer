@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="nGev3A" name="audioMix" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="1" displaySplashScreen="1" jucerFormatVersion="1"
+              defines="JUCE_MODAL_LOOPS_PERMITTED=1">
+  <MAINGROUP id="maUhbB" name="audioMix">
+    <GROUP id="{3AE4FB0B-31C9-8718-4EE5-EFBC4E6BF18D}" name="Source">
+      <GROUP id="{E443A1BE-9A7D-C242-6446-CB7191ECAA8A}" name="Images">
+        <FILE id="IZF4N8" name="addToQueue Logo.png" compile="0" resource="1"
+              file="Source/Images/addToQueue Logo.png"/>
+        <FILE id="soGDW1" name="load icon.png" compile="0" resource="1" file="Source/Images/load icon.png"/>
+      </GROUP>
+      <FILE id="xwYOIV" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="PHO5dh" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="OBBVok" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="C2Sq6v" name="DJAudioPlayer.cpp" compile="1" resource="0"
+            file="Source/DJAudioPlayer.cpp"/>
+      <FILE id="nJ4S4t" name="DJAudioPlayer.h" compile="0" resource="0" file="Source/DJAudioPlayer.h"/>
+      <FILE id="WKDQSW" name="DeckGUI.cpp" compile="1" resource="0" file="Source/DeckGUI.cpp"/>
+      <FILE id="FcYjLs" name="DeckGUI.h" compile="0" resource="0" file="Source/DeckGUI.h"/>
+      <FILE id="CdyB9P" name="WaveformDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveformDisplay.cpp"/>
+      <FILE id="ALbn46" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+      <FILE id="L5Cshc" name="PlaylistComponent.cpp" compile="1" resource="0"
+            file="Source/PlaylistComponent.cpp"/>
+      <FILE id="BwXn2E" name="PlaylistComponent.h" compile="0" resource="0"
+            file="Source/PlaylistComponent.h"/>
+      <FILE id="FBYZCr" name="TrackInfo.cpp" compile="1" resource="0" file="Source/TrackInfo.cpp"/>
+      <FILE id="N7JB2H" name="TrackInfo.h" compile="0" resource="0" file="Source/TrackInfo.h"/>
+      <FILE id="HbmEEm" name="QueueComponent.cpp" compile="1" resource="0"
+            file="Source/QueueComponent.cpp"/>
+      <FILE id="QTl1NM" name="QueueComponent.h" compile="0" resource="0"
+            file="Source/QueueComponent.h"/>
+      <FILE id="aLGkyv" name="Crossfader.cpp" compile="1" resource="0" file="Source/Crossfader.cpp"/>
+      <FILE id="Z3MuIl" name="Crossfader.h" compile="0" resource="0" file="Source/Crossfader.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Otodecks DJ"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Otodecks DJ"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
