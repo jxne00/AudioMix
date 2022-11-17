@@ -6,7 +6,7 @@ AudioMix is a music player made using the JUCE framework. This music player allo
 <br />
 
 To load project:
-> Download [Projucer](https://juce.com/discover/projucer) and open the .jucer file inside 'audioMix' folder to load the project. 
+> Download [Projucer](https://juce.com/get-juce/download) and open the .jucer file inside 'audioMix' folder to load the project. 
 <br />
 
 ___
