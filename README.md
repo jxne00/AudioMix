@@ -6,7 +6,7 @@ AudioMix is a music player made using the C++ [JUCE framework](https://github.co
 
 To load AudioMix:
 
-1. Clone this repo with `git clone https://github.com/jxne00/AudioMix`.
+1. Clone this repo with `git clone https://github.com/jxne00/AudioMix.git`.
 2. Download [JUCE](https://juce.com/get-juce/download), and locate **Projucer**.
 3. Launch *Projucer* and open the `.jucer` file inside 'audioMix' folder (or double click the `.jucer` file).
 4. Open up an IDE from within *Projucer* to build and run AudioMix music player.
